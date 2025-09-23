@@ -30,8 +30,10 @@ npm test
 
 ## Accessibility Lab Answers
 Color:
-The text is difficult to read because of the current color scheme. Can you do a test of the current color contrast (text/background), report the results of the test, and then fix it by changing the assigned colors? The lighthouse test reports "Background and foreground colors do not have a sufficient contrast ratio." before making any changes. It appears to flag ~37 elements. The lighthouse accessibility total score is 85. 
-After fixing the lighthouse recommended changes under Contrast, the score increases to 89.
+The text is difficult to read because of the current color scheme. Can you do a test of the current color contrast (text/background), report the results of the test, and then fix it by changing the assigned colors? 
+
+The lighthouse test reports "Background and foreground colors do not have a sufficient contrast ratio." before making any changes. It appears to flag ~37 elements. The lighthouse accessibility total score is 85. 
+After fixing the lighthouse recommended changes under Contrast, the score increases to 89 and the contrast section in the Lighthouse test is gone.
 
 Semantic HTML:
 The content is still not very accessible — report on what happens when you try to navigate it using a keyboard.
