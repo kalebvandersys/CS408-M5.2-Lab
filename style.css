@@ -19,7 +19,7 @@ body {
 /* || typography */
 
 font[size="7"], font[size="6"], font[size="5"] {
-  font-family: 'Sonsie One', cursive;
+  font-family: 'Times New Roman', Times, serif;
   color: #2a2a2a;
 }
 
@@ -31,7 +31,7 @@ p, input, li, table, label {
 font[size="7"] {
   font-size: 4rem;
   text-align: center;
-  color: white;
+  color: black;
   text-shadow: 2px 2px 10px black;
 }
 
@@ -52,7 +52,12 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: white;
+}
+
+div[class="header"], article, footer, .secondary {
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
 }
 
 article, footer, .secondary {
