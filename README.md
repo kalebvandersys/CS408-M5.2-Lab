@@ -42,10 +42,10 @@ The content is still not very accessible — report on what happens when you try
 I am able to go through the menu, the search field and Go!, the audio clip, and the related links.
 
 Can you update the article text to make it easier for screen reader users to navigate?
-Yes. By adding h1 and h2 headers and <p> tags.
+Yes. By adding h1 and h2 headers and <p> tags. Also by removing font elements.
 
-The navigation menu part of the site (wrapped in <div class="nav"></div>) could be made more accessible by putting it in a proper HTML semantic element. Which one should it be updated to? Make the update.
-
+The navigation menu part of the site (wrapped in <div class="nav"></div>) could be made more accessible by putting it in a proper HTML semantic element. Which one should it be updated to? Make the update. 
+It should be <nav>
 
 The Images:
 
