@@ -55,7 +55,9 @@ Yes. I added an alt tag to each of the photos that discribe the photo.
 The Audio Player:
 
 The <audio> player isn't accessible to hearing impaired (deaf) people — can you add some kind of accessible alternative for these users?
+Yes. I added an audio transcript.
 The <audio> player isn't accessible to those using older browsers that don't support HTML audio. How can you allow them to still access the audio?
+I provided a link to download the audio.
 
 The Forms:
 
