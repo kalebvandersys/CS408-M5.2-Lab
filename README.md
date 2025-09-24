@@ -45,7 +45,7 @@ Can you update the article text to make it easier for screen reader users to nav
 Yes. By adding h1 and h2 headers and <p> tags. Also by removing font elements.
 
 The navigation menu part of the site (wrapped in <div class="nav"></div>) could be made more accessible by putting it in a proper HTML semantic element. Which one should it be updated to? Make the update. 
-It should be <nav>
+It should be <nav>.
 
 The Images:
 
