@@ -22,11 +22,7 @@ you do not need to setup a local server to run the project.
 
 ## Testing
 
-To run the tests for the project, run the following command:
-
-```bash
-npm test
-```
+N/A
 
 ## Accessibility Lab Answers
 Color:
@@ -39,7 +35,7 @@ After fixing the lighthouse recommended changes under Contrast, the score increa
 Semantic HTML:
 
 The content is still not very accessible — report on what happens when you try to navigate it using a keyboard.
-I am able to go through the menu, the search field and Go!, the audio clip, and the related links.
+I am able to go through the menu, the search field and Go!, the audio clip, and the related links. It does not go to the comments area.
 
 Can you update the article text to make it easier for screen reader users to navigate?
 Yes. By adding h1 and h2 headers and <p> tags. Also by removing font elements.
@@ -62,7 +58,10 @@ I provided a link to download the audio.
 The Forms:
 
 The <input> element in the search form at the top could do with a label, but we don't want to add a visible text label that would potentially spoil the design and isn't really needed by sighted users. How can you add a label that is only accessible to screen readers?
-The two <input> elements in the comment form have visible text labels, but they are not unambiguously associated with their labels — how do you achieve this? Note that you'll need to update some of the CSS rule as well.
+By using the aria-label class.
+
+The two <input> elements in the comment form have visible text labels, but they are not unambiguously associated with their labels — how do you achieve this?
+You can add label elements to achive that.
 
 The Show/Hide Comment Control:
 
@@ -75,3 +74,6 @@ The data table is not currently very accessible — it is hard for screen reader
 Other Considerations?
 Can you list two more ideas for improvements that would make the website more accessible?
 Yes. One was adding the lang declaration to the html element in the beginning. 
+
+## Sources
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label#:~:text=Accessible%20names%20can%20also%20be,with%20a%20recognizable%20accessible%20name.
