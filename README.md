@@ -47,8 +47,6 @@ Yes. By adding h1 and h2 headers and <p> tags.
 The navigation menu part of the site (wrapped in <div class="nav"></div>) could be made more accessible by putting it in a proper HTML semantic element. Which one should it be updated to? Make the update.
 
 
-Note: You'll need to update the CSS rule selectors that style the tags to their proper equivalents for the semantic headings. Once you add paragraph elements, you'll notice the styling looks better.
-
 The Images:
 
 The images are currently inaccessible to screen reader users. Can you fix this?
