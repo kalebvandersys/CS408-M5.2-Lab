@@ -66,14 +66,16 @@ You can add label elements to achive that.
 The Show/Hide Comment Control:
 
 The show/hide comment control button is not currently keyboard-accessible. Can you make it keyboard-accessible, both in terms of focusing it using the tab key and activating it using the return key?
+I did it by making it a button instead of a div.
 
 The Table:
 
 The data table is not currently very accessible — it is hard for screen reader users to associate data rows and columns together, and the table also has no kind of summary to make it clear what it shows. Can you add some features to your HTML to fix this problem?
+Yes. Changing the headers to td helps. Also, adding a caption improves it.
 
 Other Considerations?
 Can you list two more ideas for improvements that would make the website more accessible?
-Yes. One was adding the lang declaration to the html element in the beginning. 
+Yes. One was adding the lang declaration to the html element in the beginning.
 
 ## Sources
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label#:~:text=Accessible%20names%20can%20also%20be,with%20a%20recognizable%20accessible%20name.

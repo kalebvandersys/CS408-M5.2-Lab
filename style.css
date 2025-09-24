@@ -191,7 +191,7 @@ audio {
   padding: 10px;
 }
 
-.show-hide {
+button {
   cursor: pointer;
 }
 
@@ -223,17 +223,17 @@ audio {
   flex: 6;
 }
 
-.show-hide {
+.button {
   text-align: center;
   width: 150px;
 }
 
-.comment-form input, .comment-form label, .show-hide {
+.comment-form input, .comment-form label, .button {
   font-size: 1.6rem;
   line-height: 32px;
 }
 
-.comment-form input[type="submit"], .show-hide {
+.comment-form input[type="submit"], .button {
   background: #333;
   border: 0;
   color: white;
