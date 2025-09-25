@@ -4,15 +4,6 @@ This is a starter project for web development with no frameworks and minimal
 dependencies. It is intended to be a starting point for web development projects
 that are written in plain HTML, CSS, and JavaScript.
 
-## Getting Started
-
-To get started, clone this repository and run the following commands:
-
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
-
 ## Development
 
 It is recommended to use the VSCode Live Server extension to run the project
@@ -25,6 +16,7 @@ you do not need to setup a local server to run the project.
 N/A
 
 ## Accessibility Lab Answers
+
 Color:
 
 The text is difficult to read because of the current color scheme. Can you do a test of the current color contrast (text/background), report the results of the test, and then fix it by changing the assigned colors? 
@@ -71,11 +63,12 @@ I did it by making it a button instead of a div.
 The Table:
 
 The data table is not currently very accessible — it is hard for screen reader users to associate data rows and columns together, and the table also has no kind of summary to make it clear what it shows. Can you add some features to your HTML to fix this problem?
-Yes. Changing the headers to td helps. Also, adding a caption improves it.
+Yes. Changing the headers to th helps. Also, adding a caption improves it. Adding the aria aria-describedby provides an overview for screen readers.
 
 Other Considerations?
 Can you list two more ideas for improvements that would make the website more accessible?
 Yes. One was adding the lang declaration to the html element in the beginning.
+Another idea would be to have a show/hide transcript button.
 
 ## Sources
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label#:~:text=Accessible%20names%20can%20also%20be,with%20a%20recognizable%20accessible%20name.
