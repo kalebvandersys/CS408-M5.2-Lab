@@ -262,6 +262,7 @@ button {
 .comment-container li p:nth-child(2) {
   flex: 5;
 }
+/* Accessibility helper classes */
 .sr-only {
   position: absolute;
   width: 1px;
