@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Accessibility assessment</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CSonsie+One" rel="stylesheet"
     type="text/css">
   <link rel="stylesheet" href="style.css">
 
@@ -59,14 +59,14 @@
         you'll find out below. The below table also gives you some useful facts about bears.
       </p>
       <!-- Table -->
-      <table aria-describedby="Comparison of wild and urban bears, including size, habitat, and diet">
-        <caption>Comparison of wild and urban bears</caption>
-        <caption class="sr-only">
-          This table compares wild bears and urban bears across several characteristics.
-          Wild bears are typically brown or black, measure 1.4 to 2.8 meters, live in forests,
-          and eat fish, meat, and plants. Urban bears wear coats like North Face, are smaller,
-          live in city areas such as condos and coffee shops, and often eat human food such as Starbucks and sushi.
-        </caption>
+      <!-- Hidden description for screen readers -->
+      <div id="bear-table-desc" class="sr-only">
+        This table compares wild bears and urban bears across several characteristics.
+        Wild bears are typically brown or black, measure 1.4 to 2.8 meters, live in forests,
+        and eat fish, meat, and plants. Urban bears wear coats like North Face, are smaller,
+        live in city areas such as condos and coffee shops, and often eat human food such as Starbucks and sushi.
+      </div>
+      <table aria-describedby="bear-table-desc">
         <thead>
           <tr>
             <th scope="col">Bear Type</th>

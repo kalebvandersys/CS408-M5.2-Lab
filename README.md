@@ -58,7 +58,7 @@ I did it by making it a button instead of a div.
 The Table:
 
 The data table is not currently very accessible — it is hard for screen reader users to associate data rows and columns together, and the table also has no kind of summary to make it clear what it shows. Can you add some features to your HTML to fix this problem?
-Yes. Changing the headers to th helps. Also, adding a caption improves it. Adding the aria aria-describedby provides an overview for screen readers.
+Yes. Changing the headers to th helps. Also, the aria-describedby provides an overview for screen readers.
 
 Other Considerations?
 Can you list two more ideas for improvements that would make the website more accessible?
